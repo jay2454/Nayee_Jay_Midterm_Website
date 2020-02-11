@@ -1,6 +1,13 @@
+@charset "UTF-8";
+
 *{
 	margin: 0;
 	padding: 0;
+}
+
+.hidden
+{
+	display: none;
 }
 
 .right-menu li
@@ -43,9 +50,9 @@
 {
 	padding: 0 35px !important;
 	height: 140px;
-	background: #FFEFBA;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #FFEFBA;  
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
 
 }
 
@@ -267,6 +274,26 @@
 
 
 
+#mapArea {
+  width: 380px;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: red;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+
 
 
 #mainFooter
@@ -286,20 +313,6 @@ ul{
 ul li{
 	display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footerNav {
 	width: 500px;
