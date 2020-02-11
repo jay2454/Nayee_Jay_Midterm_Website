@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.right-menu li
+{
+	display: inline-block;
+	margin-top: 30px !important;
+}
+
+.right-menu li .fa
+{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.navbar-toggler
+{
+	height: 150px;
+}
+
+.navbar-brand img
+{
+	width: 100px;
+
+}
+
+.navbar-brand
+{
+	left: 50%;
+	top: 25px;
+	transform: translateX(-50%);
+	position: absolute;
+}
+
+.header
+{
+	margin-bottom: -80px;
+}
+.navbar
+{
+	padding: 0 35px !important;
+	height: 140px;
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.banner-img
+{
+	margin: 80px 115px;
+	width: 60%;
+}
+
+.banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+}
+
+.banner
+{
+	position: relative;
+}
+
+.banner-title{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.banner-title h2
+{
+	font-size: 55px;
+	background: #0F2027; 
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	color: #fff;
+	line-height: 70px;
+	padding: 0px 10px 0 10px;
+}
+
+
+
+
+.beer-prod
+{
+	padding: 100px 0;
+}
+
+.beer-box
+{
+	margin: 80px 0;
+}
+
+.title-style h2
+{
+	padding: 40px 0;
+}
+
+.title-style
+{
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 80%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+
+.title-style::after
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+	
+}
+
+
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	font-family: Arial, sans-serif;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index: -1;
+	
+}
+
+.beer-img
+{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.beer-img img
+{
+	width: 100%;
+}
+
+
+.btn-see
+{
+	width: 150px;
+	padding: 10px 0;
+	outline: none;
+	border:0;
+	border-radius: 2px;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0);
+	transition: .6s;
+	opacity: 0;
+	z-index: 1;
+
+}
+
+.beer-img:hover .btn-see
+{
+	transform: translate(-50%,50%);
+	bottom: 50%;
+	opacity: 1;
+}
+
+.overlay
+{
+	height: 0;
+	width: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: .5s;
+}
+
+.beer-img:hover .overlay
+{
+	opacity: .5;
+	height: 100%;
+}
+
+
+
+
+.offer
+{
+	background: url(../images/cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.row
+{
+	margin: initial !important;
+}
+
+
+.more
+{
+	max-width: 500px;
+	margin-top: 80px;
+	padding: 60px;
+	background-color: #ffffff8c;
+	margin-bottom: 20px;
+}
+
+.more a
+{
+	width: 100px;
+	display: block;
+	color: white;
+	background: black;
+	text-decoration: none;
+	padding: 5px;
+	text-align: center;
+}
+
+.offer img
+{
+	width: 300px;
+	height: 400px;
+	margin: -100px;
+	margin-top: 150px;
+}
+
+.history
+{
+	background: url(../images/factory.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.history img
+{
+	width: 300px;
+	height: 400px;
+	margin: -100px;
+	margin-top: 150px;
+}
+
+.invent
+{
+	background: url(../images/spirit.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+#mainFooter
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footerNav {
+	width: 500px;
+	margin-left: 200px;
+}
+
+#mainFooter ul li a{
+	display: inline-block;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+#copyRight{
+	float: right;
+	margin-left: 400px;
+}
+
+#copyRight h4{
+	margin-top: 25px;
+}
+
+
